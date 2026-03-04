@@ -30,7 +30,7 @@ try:
 except ImportError:
     ImageGrab = None
 
-SERVER_URL = "https://113.45.254.80:8444"
+SERVER_URL = "127.0.0.1:8444"
 SERVER_HOST = "0.0.0.0"
 SERVER_PORT = 8444
 CLIENT_ID = None

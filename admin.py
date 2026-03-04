@@ -57,7 +57,7 @@ def prompt_config():
     print(f"{GRAY}[配置]{RESET} 请输入服务器地址 (例如: {LYELLOW}https://113.45.254.80:8444{RESET}):")
     SERVER_URL = input(f"{LYELLOW}> {RESET}").strip()
     if not SERVER_URL:
-        SERVER_URL = "https://113.45.254.80:8444"
+        SERVER_URL = "127.0.0.1:8444"
     print(f"{GRAY}[配置]{RESET} 使用服务器: {LGREEN}{SERVER_URL}{RESET}")
 
 
